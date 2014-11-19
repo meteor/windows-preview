@@ -1,4 +1,4 @@
-windows-preview
+Issue tracker for Meteor Windows support previews
 ===============
 
-The place to report issues with the previews of Meteor on Windows
+Add an issue here if something you use doesn't work on Windows. See the [wiki page](https://github.com/meteor/meteor/wiki/Preview-of-Meteor-on-Windows) for more details.
