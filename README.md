@@ -13,9 +13,8 @@ Installer issues:
 Check out this issue for the discussion: https://github.com/meteor/windows-preview/issues/6
 
 Common issues:
-- .Net Framework 3.5 is not available on your machine, this is why the installer crashes
-- Your user doesn't have permissions to create directories in your user's LocalAppData:
+- The installer can crash if .Net Framework 3.5 is not present on your machine
+- The installer will fail to copy the files if your user doesn't have permissions to create directories in your %HOME/AppData/Local directory:
   * try removing a `.meteor` directory left from a previous installation and try again
   * you might need to run the installer as an administrator
-- The installer will run only in a compitability mode
-
+- If the installer still crashes, try running it in the compatibility mode
